@@ -1,0 +1,123 @@
+.button{
+    border: solid 2px orangered;
+    border-radius: 30px;
+    color: white !important;
+    background-color: orangered !important;
+
+}
+.bar{
+    background-color: lavender !important;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.address{
+    margin-right: 60% !important;
+    text-align: left;
+}
+.hedd{
+    padding-top: 5px;
+    background-image: linear-gradient(to top, lightpink, white);
+    
+}
+.animate-charcter
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 60px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+.sale{
+    color: #231557;
+    font-size: 30px;
+    font-size: bold;
+}
+.off{
+    font-size: 30px;
+    font-size: bold;
+    margin-top: 10px;
+}
+.card-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    text-align: center;
+    
+}
+
+.card img {
+    width: 200px; /* Adjust size as needed */
+    height: 35vh;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.card-name {
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.horizontal-card {
+    display: flex;
+    margin-top: 50px;
+    background-color: pink;
+    border-radius: 10px;
+    border: 5px solid transparent; /* Set initial transparent border */
+    border-image: 
+        linear-gradient(45deg, #3498db, #f39c12) 1;
+    border-image-slice: 1;
+   
+   
+}
+
+.sugar{
+    height: 100px;
+    align-self: center;
+    margin-left: 50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 40%;
+}
+.card-content{
+   padding-left: 10%;
+   padding-top: 30px;
+}
+.free{
+    color: orangered;
+    font-weight: bold;
+}
+.content{
+    color: purple;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+ .line{
+    color: #ff1361 !important;
+    font-size: 20px;
+    width: 500px;
+    
+ }

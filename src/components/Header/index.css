@@ -1,0 +1,9 @@
+.logout{
+    border: solid 2px orangered;
+    border-radius: 30px;
+    width: 100px;
+    margin-top: 3px;
+    align-self: center;
+    color: orangered !important;
+    
+}
